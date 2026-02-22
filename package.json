@@ -11,6 +11,22 @@
       "title": "Convert to GIF",
       "description": "Converts images from the clipboard into a gif",
       "mode": "no-view"
+    },
+    {
+      "name": "speech-bubble-gif",
+      "title": "Speech Bubble GIF",
+      "description": "Adds a speech bubble overlay and converts to GIF",
+      "mode": "no-view"
+    }
+  ],
+  "preferences": [
+    {
+      "name": "maxBubbleHeightPercent",
+      "title": "Max Bubble Height",
+      "description": "Maximum height of the speech bubble as a percentage of the image height",
+      "type": "textfield",
+      "default": "10",
+      "required": false
     }
   ],
   "dependencies": {
